@@ -763,6 +763,7 @@ if __name__ == '__main__':
     materials.setBowingParameters('InAs', 'InSb', 'semi', electronMass=0.035, directBandGap=670.0,
                                   # the bowing of the spinOrbitSplitting seems to be closer to zero for some first-principles calculations!
                                   spinOrbitSplitting=1200.)
+    materials.setBowingParameters('InAs', 'InP', 'semi', directBandGap=100., spinOrbitSplitting=160.)
 
     materials.save()
 
